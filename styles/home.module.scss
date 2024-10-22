@@ -1,0 +1,36 @@
+.homepage {
+
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+    .article-thumbnail a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    img, video {
+        max-height: 18rem;
+        max-width: calc(100% - 2rem);
+        padding: 1rem;
+        display: block;
+        margin: auto;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin: 1rem 0;
+        color: #000e8c;
+    }
+    
+    h2:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .articles-thumbnail .article-thumbnail {
+        margin: 2rem 0;
+        padding: 1rem;
+        border: 1px solid #333;
+    }
+}

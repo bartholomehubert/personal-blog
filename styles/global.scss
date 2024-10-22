@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+.content {
+  background-color: #ccc;
+  padding: 2rem 0;
+  min-height: calc(100vh - 15.3rem);
+}

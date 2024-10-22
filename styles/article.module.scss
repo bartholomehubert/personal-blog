@@ -1,0 +1,51 @@
+.article {
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    
+    img, video{
+        max-height: 18rem;
+        max-width: min(100%, 45rem);
+        display: block;
+        margin: 1rem auto;
+    }
+    
+    .legend {
+        text-align: center;
+        font-size: 1rem;
+        font-family: monospace;
+        margin-bottom: 1rem;
+    }
+    
+    a {
+        color: #000e8c;
+    }
+    
+    code {
+        background-color: #000016 !important;
+    }
+    
+    pre[title]::before {
+        content: ' 'attr(title);
+        padding: 0.15rem 0;
+        color: #d4d4d4;
+        width: 100%;
+        font-size: 0.8rem;
+        background-color: #4c7899;
+        display: block;
+    }
+
+    pre {
+        code::selection, code *::selection {
+            background: #323232 !important;
+            color: inherit !important;
+        }
+    }
+    
+    var {
+        font-family: monospace;
+        color: #bc0000;
+        padding: 0 0.1rem;
+    }
+}

@@ -1,0 +1,58 @@
+.about {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    .author {
+        img {
+            display: block;
+            margin: 1rem auto;
+        }
+
+        h3 {
+            margin-top: 2rem;
+        }
+    }
+
+    .contact {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: 4rem 1rem;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: black;
+            border: 1px solid black;
+            padding: 0.5rem;
+            margin: 0.5rem;
+            user-select: none;
+            text-align: center;
+
+            img {
+                width: 3rem;
+                ;
+                display: block;
+                margin: auto;
+            }
+
+            p {
+                padding: 0.5rem;
+            }
+        }
+    }
+
+    .email {
+        padding: 2rem 0;
+        text-align: center;
+
+        p {
+            text-align: center;
+            user-select: text;
+        }
+    }
+}

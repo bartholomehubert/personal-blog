@@ -1,0 +1,22 @@
+{
+  "name": "personal-blog",
+  "homepage": "https://bhubert.xyz/",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "highlight.js": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "sass": "1.78"
+  }
+}
